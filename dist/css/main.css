@@ -93,7 +93,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  /* background: #444; */
+  background: url("../img/carbon_fibre.png");
   color: #fff;
   height: 100%;
   margin: 0;
@@ -182,8 +183,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects-info img {
     width: 320px;
-    height: 320px;
-    border: 3px #fff solid; }
+    height: 240px;
+    border: 5px #fff solid; }
     .projects-info img:hover {
       opacity: 0.5;
       border-color: #eece1a;
